@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+.header {
+    font-family: Montserrat medium, sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    min-height: 76px;
+    padding-left: 120px;
+    padding-right: 120px;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 30px;
+}
+.header__item {
+    text-decoration: none !important;  
+}   
